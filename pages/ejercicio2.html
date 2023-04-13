@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta charset="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de inscripción</title>
+    </head>
+    <body>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <!--Nombre-->
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre">
+                <br>
+                <!--Apellido-->
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="apellido">
+                <br>
+                <!--DNI-->
+                <label for="dni">DNI: </label>
+                <input type="number" name="dni"id="dni">
+                <br>
+                <!--Teléfono-->
+                <label for="telefono">Télefono:</label>
+                <input type="number" name="telefono" id="telefono">
+                <br>
+                <!--Email-->
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+                <br>
+                <!--Género-->
+                <label for="genero">Género: </label>
+                <select name="genero">
+                    <option value=""></option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="No Binario">No Binario</option>
+                    <option value="Genero Fluido">Género Fluido</option>
+                    <option value="Otro">Otro</option>
+                    <option value="Prefiero no responder">Prefiero no responder</option>
+                </select>
+                <br>
+                <!--Términons y condiciones-->
+                <div> Acepta términos y condiciones</div>
+                <input type="checkbox" name="acepta" value="1">
+                <br>
+                <!--Enviar-->
+                <input type="submit">
+                <!--Borrar-->
+                <input type="reset" value="Borrar Campos">
+            </fieldset>
+        </form>
+    </body>
+</html>
